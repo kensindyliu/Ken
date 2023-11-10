@@ -210,7 +210,28 @@ main {
 }
 
 .leftDiv, .rightDiv {
-    height: 100%;
     width: 50%;
     margin-top: 60px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+}
+
+.slogan {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.slogan2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+.personalPicture {
+    background-image: url('../Img/personalPicture.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
