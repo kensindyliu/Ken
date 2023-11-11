@@ -287,14 +287,14 @@ main {
 .company1 {
     width: 120px;
     height: 60px;
-    background-image: url('../Img/kingdee.png');
+    background-image: url('../img/kingdee.png');
     margin-right: 20px;
 }
 
 .company2 {
     width: 120px;
     height: 120px;
-    background-image: url('../Img/tencent.png');
+    background-image: url('../img/tencent.png');
 }
 
 .nameText, .eMailText {
