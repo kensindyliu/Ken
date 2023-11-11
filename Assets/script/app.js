@@ -8,12 +8,6 @@ btnSend.addEventListener('click', () => {
         icon: 'info',
         confirmButtonText: 'OK'
       });
-
-      const se1 = document.querySelector('#home');
-      const se2 = document.querySelector('#aboutMe');
-
-
-      console.log(`1height: ${se1.offsetHeight} ; 2height: ${se2.offsetHeight}`)
 });
 
 resetValue();
