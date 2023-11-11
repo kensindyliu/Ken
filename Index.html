@@ -6,7 +6,11 @@
         <meta name="author" content="Ken">
         <meta name="description" content="Ken; web developer">
         <meta name="keywords" content="web developer, front-end, html, css, javascript, react, sql">
-        <title>About me</title>
+        <title>Ken's Resume</title>
+        <!-- Include SweetAlert CSS and JS files -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@10">
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
         <!-- using icons from fontawesome -->
         <script src="https://kit.fontawesome.com/3f60ee6457.js" crossorigin="anonymous"></script>
 
@@ -44,7 +48,7 @@
                 <section class="mainSection1" id="home">
                     <div class="leftDiv">
                         <p class="slogan">Hire me now and,</p> 
-                        <p class="slogan2">Achieve your goal in the shortes time possible!</p>
+                        <p class="slogan2">Achieve your goal in the shortest time possible!</p>
                         <p><br><br></p>
                         <ul>
                             <li>Years of work experience</li>
@@ -53,6 +57,12 @@
                             <li>Many expericese on multiple large-scale project
                             </li>
                         </ul>
+
+                        <br><br><br><br><br><br>
+                        <img src="https://img.shields.io/badge/Code%20-%20Javascript%20-%202aa889"/>
+                        <img src="https://img.shields.io/badge/Code%20-%20C%23%20-%202aa889"/>
+                        <img src="https://img.shields.io/badge/Code%20-%20Java%20-%202aa889"/>
+                        <img src="https://img.shields.io/badge/Code%20-%20Vb%20-%202aa889"/>
                     </div>
                     <div class="rightDiv personalPicture">
                         
@@ -61,20 +71,104 @@
 
                 <section class="mainSection1" id="aboutMe">
                     <div class="leftDiv">
-                        <p>aboutMe</p>
+                        <div class="lineDiv"><h1>About Me</h1></div>
+
+                        <div class="lineDiv">
+                            <div class="attributeDiv"><p>Name:</p></div>
+                            <div class="contentDiv"><p>Zhixin Liu</p></div>
+                        </div>
+
+                        <div class="lineDiv">
+                            <div class="attributeDiv"><p>Date of birth:</p></div>
+                            <div class="contentDiv"><p>1983.06</p></div>
+                        </div>
+
+                        <div class="lineDiv">
+                            <div class="attributeDiv"><p>Gender:</p></div>
+                            <div class="contentDiv"><p>Male</p></div>
+                        </div>
+
+                        <div class="lineDiv"><h1 class="educationT">Education</h1></div>
+
+                        <div class="lineDiv">
+                            <div class="attributeDiv"><p>University:</p></div>
+                            <div class="contentDiv">
+                                <p>ZhongShan University</p>
+                                <p>2004~2008</p>
+                            </div>
+                        </div>
+
+                        <div class="lineDiv">
+                            <div class="attributeDiv"><p>University:</p></div>
+                            <div class="contentDiv"><p>UCSI Malaysia</p> <p>2015~2016</p></div>
+                        </div>
+                        <div class="lineDiv">
+                            <div class="attributeDiv"><p>College:</p></div>
+                            <div class="contentDiv"><p>MITT Winnipeg</p><p>2023~2024</p></div>
+                        </div>
                     </div>
                     <div class="rightDiv">
-
+                        <div>
+                            <p class="myIntroduction">
+                                I have worked for two top large-scale software companies. 
+                                Years of experience have made me good at large-scale software development, 
+                                including the combination of various modules and the use of databases. 
+                                Years of experience allow me to quickly locate and solve problems in software 
+                                with hundreds of thousands of lines of code. Due to development needs, 
+                                I have been involved in VB, C#, Java, SQL, Access and various web development 
+                                languages over the years, and have good working experience in large-scale software 
+                                development and maintenance.
+                            </p>
+                        </div>
+                        <div>
+                            <h1>Two companies I have worked at:</h1>
+                            <div class="companies">
+                                <a href="https://www.kingdee.com" target="_blank">
+                                    <div class="firstCompanyDiv">
+                                        <div class="company1"></div>
+                                    </div>
+                                </a>
+                                <a href="https://www.tencent.com/en-us/" target="_blank">
+                                    <div class="company2"></div>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </section>
 
                 <section class="mainSection2" id="contactMe">
                     <div class="leftDiv">
-                        <p>contactMe</p>
+                        <h1>Contact Me</h1>
+                        <div>
+                            <div>
+                                <input type="text" class="nameText" placeholder="Name">
+                                <input type="text" class="eMailText" placeholder="Email">
+                            </div>
+                            <div>
+                                <textarea id="multilineInput" name="multilineInput" class="multilineInput"></textarea>
+                            </div>
+                            <div class="sendDiv">
+                                <button class="sendBtn">Send</button>
+                            </div>
+                        </div>
                     </div>
-                    <div class="rightDiv"></div>
+                    <div class="rightDiv">
+                        <div>
+                            <div class="phoneDiv">
+                                <p>Phone:</p>
+                                <i class="fa-solid fa-phone fa-lg"></i>
+                                <p>(204)297-0081</p>
+                            </div>
+                            <div class="phoneDiv">
+                                <p>Email: </p>
+                                <i class="fa-solid fa-envelope fa-lg"></i>
+                                <a href="mailto:kensindytomjerry@gmail.com?subject=Resume Request"> kensindytomjerry@gmail.com</a>
+                            </div>
+                        </div>
+                    </div>
                 </section>
         </main>
+
         <footer>
             <div class="container">
                 <div class="footer-nav">

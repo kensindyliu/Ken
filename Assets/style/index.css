@@ -201,20 +201,23 @@ main {
     margin-top: 60px;
 }
 
-.mainSection1, .mainSection2 {
+
+.mainSection1 {
     height: calc(100vh - 68px);
     display: flex;
+    border-bottom: 1px solid #000;
 }
-.mainSection1 {
+
+.mainSection2 {
+    height: calc(100vh - 280px);
+    display: flex;
     border-bottom: 1px solid #000;
 }
 
 .leftDiv, .rightDiv {
     width: 50%;
     margin-top: 60px;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center; */
+
 }
 
 .slogan {
@@ -234,4 +237,116 @@ main {
     background-image: url('../Img/personalPicture.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.lineDiv {
+    width: 100%;
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.lineDiv div {
+    margin: 5px 5px;
+    padding-right: 5px;
+}
+
+.contentDiv p{
+    margin-right: 10px;
+}
+
+.attributeDiv {
+    background-color: darkgray;
+    color: black;
+    width: 160px;
+    text-align: right;
+}
+.educationT{
+    margin-top: 40px;
+}
+
+
+.lineDiv p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+
+.contentDiv {
+    color: #000;
+    display: flex;
+}
+
+.myIntroduction {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.companies {
+    height: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.company1, .company2 {
+    border-radius: 5px;
+    background-size: 100% 100%;
+}
+
+.firstCompanyDiv{ 
+    height: 120px;
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.company1 {
+    width: 120px;
+    height: 60px;
+    background-image: url('../Img/kingdee.png');
+    margin-right: 20px;
+}
+
+.company2 {
+    width: 120px;
+    height: 120px;
+    background-image: url('../Img/tencent.png');
+}
+
+.nameText, .eMailText {
+    height: 30px;
+    width: 45%;
+    margin-top: 15px;
+}
+
+.multilineInput {
+    resize: none;
+    width: calc(90% + 5px);
+    height: 150px;
+    margin-top: 15px;
+}
+
+.sendBtn {
+    height: 60px;
+    width: 120px;
+    margin-top: 15px;
+}
+
+.phoneDiv {
+    height: 30px;
+    display: flex;
+    place-items: center;
+}
+
+.phoneDiv p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    line-height: 30px;
+}
+.phoneDiv i {
+    margin: 0px 5px;
+}
+
+.sendDiv {
+    width: calc(90% + 5px);
+    text-align: right;
 }
