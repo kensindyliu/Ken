@@ -8,6 +8,7 @@ btnSend.addEventListener('click', () => {
         icon: 'info',
         confirmButtonText: 'OK'
       });
+
 });
 
 resetValue();

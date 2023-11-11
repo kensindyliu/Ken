@@ -375,7 +375,7 @@ main {
 
 @media screen and (max-width:612px) {
     #aboutMe {
-        height: calc(200vh + 120px);
+        height: calc(200vh + 320px);
     }
 
 }
