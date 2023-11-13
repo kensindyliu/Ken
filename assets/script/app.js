@@ -24,8 +24,8 @@ function resetValue(){
 
 //For mobile phone action
 const menu1 = document.querySelector('.menu');
-menu.addEventListener('click', () => {
-    const menuIcon = document.querySelector('.menu-icon');
+menu1.addEventListener('click', () => {
+    const menuIcon = document.querySelector('#menu-icon');
     menuIcon.style.display = 'block';
     menu1.style.display = 'flex';
 });
